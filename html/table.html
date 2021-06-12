@@ -1,0 +1,111 @@
+<!Doctype html>
+<html>
+
+<head>
+	<title>JIS :: html : table</title>
+	<style>
+		body {
+			padding: 20px
+		}
+
+		th,
+		td {
+			padding: 3px
+		}
+	</style>
+</head>
+
+<body>
+
+	<table border="1">
+		<caption>row</caption>
+		<tr>
+			<th> cell</th>
+			<td>cell</td>
+			<th>table header</th>
+			<td>table data</td>
+		</tr>
+	</table>
+	<br>
+	<table border="1">
+		<caption>collum</caption>
+		<tr>
+			<th>table header</th>
+		</tr>
+		<tr>
+			<td>table data</td>
+		</tr>
+		<tr>
+			<td>cell</td>
+		</tr>
+		<tr>
+			<td>table data</td>
+		</tr>
+	</table>
+	<br>
+	<hr>
+	<br>
+	<table border="1">
+		<caption>caption</caption>
+		<tr>
+			<th>table header 1</th>
+			<th>table header 2</th>
+			<th>table header 3</th>
+			<th>table header 4</th>
+		</tr>
+		<tr>
+			<td>table data 5</td>
+			<td>table data 6</td>
+			<td>table data 7</td>
+			<td>table data 8</td>
+		</tr>
+		<tr>
+			<td>table data 9</td>
+			<td>table data 10</td>
+			<td>table data 11</td>
+			<td>table data 12</td>
+		</tr>
+		<tr>
+			<td>table data 13</td>
+			<td>table data 14</td>
+			<td>table data 15</td>
+			<td>table data 16</td>
+		</tr>
+	</table>
+	<br>
+	<hr>
+	<br>
+	<table border="1">
+		<caption>table 1</caption>
+		<tr>
+			<th>table header</th>
+			<th>table header</th>
+			<th colspan="2">table header : colspan 2</th>
+		</tr>
+		<tr>
+			<td rowspan="3">table data : rowspan 3 </td>
+			<td colspan="3">table data : colspan 3</td>
+		</tr>
+		<tr>
+			<td rowspan="2">table data : rowspan 2</td>
+			<td>table data</td>
+			<td>table data</td>
+		</tr>
+		<tr>
+			<td>table data</td>
+			<td>table data </td>
+		</tr>
+		<tr>
+			<td>table data</td>
+			<td colspan="3" rowspan="3">table data : colspan 3 + rowspan 3</td>
+		</tr>
+		<tr>
+			<td>table data</td>
+		</tr>
+		<tr>
+			<td>table data</td>
+		</tr>
+	</table>
+</body>
+
+</html>

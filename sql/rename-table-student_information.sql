@@ -1,0 +1,1 @@
+RENAME students_information TO student_info; 
