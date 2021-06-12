@@ -1,16 +1,16 @@
-### [Create a table](https://github.com/MrDeveloperJIS/ict/blob/main/sql/create-table-student_information.sql)
+### Create a table
 ```
 +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
 | studentID          | Name               | Fathers_Name       | Mothers_Name       | District           | Group              | Tuition_Fees       | Class_start_date   |
 +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
 ```
-### [Rename the table](https://github.com/MrDeveloperJIS/ict/blob/main/sql/rename-table-student_information.sql)
+### Rename the table
 ```
 +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
 | studentID          | Name               | Fathers_Name       | Mothers_Name       | District           | Group              | Tuition_Fees       | Class_start_date   |
 +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
 ```
-### [Insert data](https://github.com/MrDeveloperJIS/ict/blob/main/sql/insert-into-student_info.sql)
+### Insert data
 ```
 +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
 | studentID          | Name               | Fathers_Name       | Mothers_Name       | District           | Group              | Tuition_Fees       | Class_start_date   |
@@ -18,7 +18,7 @@
 | 7E4C1A             | Md. Rakibul Islam  | Md. Rashedul Islam | Jesmin Aktar       | Chittagong         | Science            | 5000               | 2021-01-03         |
 +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
 ```
-### [Delete a field](https://github.com/MrDeveloperJIS/ict/blob/main/sql/delete-field-mothers_name.sql)
+### Delete a field
 ```
 +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
 | studentID          | Name               | Fathers_Name       | District           | Group              | Tuition_Fees       | Class_start_date   |
@@ -26,7 +26,7 @@
 | 7E4C1A             | Md. Rakibul Islam  | Md. Rashedul Islam | Chittagong         | Science            | 5000               | 2021-01-03         |
 +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
 ```
-### [Insert a field](https://github.com/MrDeveloperJIS/ict/blob/main/sql/insert-field-mobile_number.sql)
+### Insert a field
 ```
 +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
 | studentID          | Name               | Fathers_Name       | Mobile_number      | District           | Group              | Tuition_Fees       | Class_start_date   |
@@ -34,7 +34,7 @@
 | 7E4C1A             | Md. Rakibul Islam  | Md. Rashedul Islam |                    | Chittagong         | Science            | 5000               | 2021-01-03         |
 +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
 ```
-### [Update data](https://github.com/MrDeveloperJIS/ict/blob/main/sql/update-data-in-student_info.sql)
+### Update data
 ```
 +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
 | studentID          | Name               | Fathers_Name       | Mobile_number      | District           | Group              | Tuition_Fees       | Class_start_date   |
@@ -42,12 +42,12 @@
 | 7E4C1A             | Md. Rakibul Islam  | Md. Rashedul Islam | 01987654321        | Chittagong         | Science            | 5000               | 2021-01-03         |
 +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
 ```
-### [Delete data](https://github.com/MrDeveloperJIS/ict/blob/main/sql/delete-data-from-student_info.sql)
+### Delete data
 ```
 +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
 | studentID          | Name               | Fathers_Name       | Mobile_number      | District           | Group              | Tuition_Fees       | Class_start_date   |
 +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
 ``` 
-### [Delete table](https://github.com/MrDeveloperJIS/ict/blob/main/sql/delete-table-student_info.sql)
+### Delete table
 ```
 ```
